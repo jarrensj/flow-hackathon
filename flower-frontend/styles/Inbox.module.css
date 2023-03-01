@@ -1,0 +1,17 @@
+.inbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.messages {
+  width: 100%;
+  overflow: auto;
+  height: calc(100vh - 500px);
+  padding: 0 1em;
+}
+
+.message {
+  margin: 1em 0;
+  border-radius: 5px;
+}

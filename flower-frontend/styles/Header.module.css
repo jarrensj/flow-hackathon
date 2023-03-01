@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  vertical-align: middle;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 1em;
+  flex-direction: start;
+  padding: 0 5em;
+  color: #fff;
+}
+
+.navbar button {
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navlinks {
+  color: #fff;
+}
+
+.navbar a {
+  /* font-weight: 700; */
+  text-decoration: none;
+}
+
+.brand {
+  letter-spacing: .75em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
